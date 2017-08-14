@@ -17,8 +17,8 @@ namespace AWSQueueSend
 				//AmazonSQSConfig sqsConfig = new AmazonSQSConfig();
 				//sqsConfig.ServiceURL = "http://sqs.eu-west-1.amazonaws.com";
 
-				Environment.SetEnvironmentVariable("AWS_ACCESS_KEY_ID", "AKIAIYWYK7SGDPWTMFPQ");
-				Environment.SetEnvironmentVariable("AWS_SECRET_ACCESS_KEY", "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");
+				Environment.SetEnvironmentVariable("AWS_ACCESS_KEY_ID", "<KEY_ID>");
+				Environment.SetEnvironmentVariable("AWS_SECRET_ACCESS_KEY", "<ACCESS_KEY>");
 				Environment.SetEnvironmentVariable("AWS_REGION", "eu-west-1");
 
                 var x = new EnvironmentVariablesAWSCredentials();
