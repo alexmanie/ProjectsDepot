@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    xmlns:local="clr-namespace:XLabs.GridView" 
+    xmlns:controls="clr-namespace:XLabs.Forms.Controls;assembly=XLabs.Forms"
+    x:Class="XLabs.GridView.GridViewPage">
+
+    <ContentPage.BindingContext>
+        <local:GridViewPageViewModel />
+    </ContentPage.BindingContext>
+
+	<ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness" iOS="0,20,0,0" Android="0,0,0,0" />
+    </ContentPage.Padding>
+
+	<Grid>
+		<Grid.RowDefinitions>
+			<RowDefinition Height="100" />
+			<RowDefinition Height="*" />
+		</Grid.RowDefinitions>
+
+		<Button Grid.Row="0" Text="Fill" BackgroundColor="Gray" HorizontalOptions="Center" VerticalOptions="Center" HeightRequest="80" WidthRequest="200" Clicked="Handle_Clicked" />
+		
+		<controls:GridView x:Name="GrdView" Grid.Row="1" HeightRequest="300" BackgroundColor="Fuchsia"
+	        ItemWidth="150"
+	        ItemHeight="200"
+	        Padding="25,0,25,0"
+	        ColumnSpacing="0"
+	        RowSpacing="20"
+	        ItemsSource="{Binding ListItems}"
+	        HorizontalOptions="FillAndExpand"
+			VerticalOptions="FillAndExpand">
+	        
+	       <controls:GridView.ItemTemplate>
+	            <DataTemplate>
+	                <ViewCell>
+	                    <ViewCell.View>
+	                        <Grid BackgroundColor="{Binding BgColor}">
+	                            <Label Text="{Binding Name}" />
+	                        </Grid>
+	                    </ViewCell.View>
+	                </ViewCell>
+	            </DataTemplate>
+	        </controls:GridView.ItemTemplate>
+	    </controls:GridView>
+
+	</Grid>
+    
+</ContentPage>
