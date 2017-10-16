@@ -4,36 +4,18 @@
   </MonoDevelop.Ide.ItemProperties.XLabs.GridView.iOS>
   <MonoDevelop.Ide.Workbench ActiveDocument="GridViewPage.xaml.cs">
     <Files>
-      <File FileName="App.xaml" Line="7" Column="1" />
-      <File FileName="GridViewPage.xaml.cs" Line="46" Column="1" />
-      <File FileName="GridViewPage.xaml" Line="25" Column="97" />
-      <File FileName="GridViewPageViewModel.cs" Line="51" Column="1" />
+      <File FileName="GridViewPage.xaml" Line="1" Column="1" />
+      <File FileName="GridViewPage.xaml.cs" Line="26" Column="35" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="XLabs.GridView" expanded="True">
-            <Node name="XLabs.GridView" expanded="True">
-              <Node name="App.xaml" expanded="True" />
-              <Node name="GridViewPage.xaml" expanded="True">
-                <Node name="GridViewPage.xaml.cs" selected="True" />
-              </Node>
-            </Node>
-            <Node name="XLabs.GridView.Droid" expanded="True" />
-            <Node name="XLabs.GridView.iOS" expanded="True" />
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/alex/Projects/XLabs.GridView/XLabs.GridViewPage.xaml.cs" relfile="XLabs.GridViewPage.xaml.cs" line="39" column="1" />
-      <Breakpoint file="/Users/alex/Projects/XLabs.GridView/GridViewPage.xaml.cs" relfile="GridViewPage.xaml.cs" line="42" column="18" />
-      <Breakpoint file="/Users/alex/Projects/XLabs.GridView/GridViewPageViewModel.cs" relfile="GridViewPageViewModel.cs" line="27" column="1" />
-      <Breakpoint file="/Users/alex/Projects/XLabs.GridView/GridViewPageViewModel.cs" relfile="GridViewPageViewModel.cs" line="51" column="1" />
-      <Breakpoint file="/Users/alex/Projects/XLabs.GridView/GridViewPage.xaml.cs" relfile="GridViewPage.xaml.cs" line="35" column="1" />
+      <Breakpoint file="/Users/alex/Projects/ProjectsDepot/XLabs.GridView/XLabs.GridViewPage.xaml.cs" relfile="XLabs.GridViewPage.xaml.cs" line="39" column="1" />
+      <Breakpoint file="/Users/alex/Projects/ProjectsDepot/XLabs.GridView/GridViewPage.xaml.cs" relfile="GridViewPage.xaml.cs" line="50" column="18" />
+      <Breakpoint file="/Users/alex/Projects/ProjectsDepot/XLabs.GridView/GridViewPageViewModel.cs" relfile="GridViewPageViewModel.cs" line="27" column="1" />
+      <Breakpoint file="/Users/alex/Projects/ProjectsDepot/XLabs.GridView/GridViewPage.xaml.cs" relfile="GridViewPage.xaml.cs" line="43" column="1" />
+      <Breakpoint file="/Users/alex/Projects/ProjectsDepot/XLabs.GridView/GridViewPage.xaml.cs" relfile="GridViewPage.xaml.cs" line="38" column="4" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

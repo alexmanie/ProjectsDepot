@@ -28,7 +28,15 @@ namespace XLabs.GridView
             var vm = ((GridViewPageViewModel)this.BindingContext);
 
 			this.GrdView.ItemSelected += Handle_ItemSelected;
+			//this.GrdView.ItemWidth = this.btnLeft.Width;
 
+			this.Focused += PageFocused;
+		}
+
+		void PageFocused(object sender, EventArgs e)
+		{
+			this.GrdView.ItemWidth = this.btnLeft.Width;
+			
 		}
 
         void Handle_ItemSelected(object sender, XLabs.EventArgs<object> e)
